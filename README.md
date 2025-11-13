@@ -1,10 +1,21 @@
 # Context Engineering
 
-## Context Engineeing
+## Context Engineeing 란?
 
 [Context Engineering for AI Agents with LangChain and Manus](https://www.youtube.com/watch?v=6_BcCthVvb8)
 
+- Context를 더 많이 사용한다고 항상 좋은 결과를 얻는것은 아닙니다.
+- 간단하고 정확한 context가 대량의 context를 가지는 정보보다 좋은 결과를 얻습니다.
+- Context engineering에서는 context를 추가하는것이 아니라 불필요한 정보를 제거함으로써 더 좋은 성능을 얻는것을 목표로 합니다.
+- Context engineering을 통해 model이 해야할 일을 간단하게 합니다.
 
+## Context를 줄이는 방법
+
+- Offload
+- Reduce
+- Retrieve
+- Isolate
+- Cache
 
 ### RAPTOR
 
